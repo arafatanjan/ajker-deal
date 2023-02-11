@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "niche-product-site",
+    "staging": "niche-product-site"
+  },
+  "targets": {},
+  "etags": {}
+}
