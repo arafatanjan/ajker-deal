@@ -11,7 +11,7 @@ import Products from '../Services/Products';
 const Home = () => {
     return (
         <div>
-            {/* <Banner></Banner> */}
+            <Banner></Banner>
             {/* <Services></Services> */}
             {/* <Servicing></Servicing> */}
             <Products></Products>
