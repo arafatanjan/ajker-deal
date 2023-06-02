@@ -188,7 +188,7 @@
     },
     {
         "title": "Pears juice",
-        "type": "fruit",
+        "type": "GRE",
         "description": "Fresh pears juice on the wooden table",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/17.jpg",
         "discountedprice": 600,
@@ -199,7 +199,7 @@
     },
     {
         "title": "Fresh pears",
-        "type": "fruit",
+        "type": "GRE",
         "description": "Sweet fresh pears on the wooden table",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/18.jpg",
         "discountedprice": 600,
@@ -210,7 +210,7 @@
     },
     {
         "title": "Caprese salad",
-        "type": "vegetable",
+        "type": "GRE",
         "description": "Homemade healthy caprese salad with tomato mozzarella and basil",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/19.jpg",
         "discountedprice": 400,
@@ -221,7 +221,7 @@
     },
     {
         "title": "Oranges",
-        "type": "fruit",
+        "type": "GRE",
         "description": "Orange popsicle ice cream bars made from fresh oranges.  a refreshing summer treat.",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/20.jpg",
         "discountedprice": 450,
@@ -232,7 +232,7 @@
     },
     {
         "title": "Vegan food",
-        "type": "vegetable",
+        "type": "GRE",
         "description": "Concept of vegan food",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/21.jpg",
         "discountedprice": 450,
@@ -243,7 +243,7 @@
     },
     {
         "title": "Breakfast with muesli",
-        "type": "tshirt",
+        "type": "GRE",
         "description": "Concept of healthy breakfast with muesli",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/22.jpg",
         "discountedprice": 450,
@@ -254,7 +254,7 @@
     },
     {
         "title": "Honey",
-        "type": "bakery",
+        "type": "GRE",
         "description": "Honey and honeycell on the table",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/23.jpg",
         "discountedprice": 450,
@@ -265,7 +265,7 @@
     },
     {
         "title": "Breakfast with cottage",
-        "type": "fruit",
+        "type": "GRE",
         "description": "Healthy breakfast with cottage cheese and strawberry",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/24.jpg",
         "discountedprice": 600,
@@ -276,7 +276,7 @@
     },
     {
         "title": "Strawberry smoothie",
-        "type": "fruit",
+        "type": "IELTS",
         "description": "Glass of red strawberry smoothie with chia seeds, served with retro cocktail tube, fresh mint and strawberries over dark background",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/25.jpg",
         "discountedprice": 600,
@@ -287,7 +287,7 @@
     },
     {
         "title": "Strawberry and mint",
-        "type": "fruit",
+        "type": "IELTS",
         "description": "Homemade muesli with strawberry and mint",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/26.jpg",
         "discountedprice": 450,
@@ -298,7 +298,7 @@
     },
     {
         "title": "Ricotta",
-        "type": "tshirt",
+        "type": "IELTS",
         "description": "Ricotta with berry and mint",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/27.jpg",
         "discountedprice": 600,
@@ -309,7 +309,7 @@
     },
     {
         "title": "Cuban sandwiche",
-        "type": "bakery",
+        "type": "IELTS",
         "description": "Homemade traditional cuban sandwiches with ham pork and cheese",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/28.jpg",
         "discountedprice": 450,
@@ -320,7 +320,7 @@
     },
     {
         "title": "Granola",
-        "type": "tshirt",
+        "type": "IELTS",
         "description": "Glass jar with homemade granola and yogurt with nuts, raspberries and blackberries on wooden cutting board over white textile in day light",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/29.jpg",
         "discountedprice": 450,
@@ -331,7 +331,7 @@
     },
     {
         "title": "Smoothie with chia seeds",
-        "type": "fruit",
+        "type": "IELTS",
         "description": "Glass of red strawberry smoothie with chia seeds, served with retro cocktail tube, fresh mint and strawberries over wooden table",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/30.jpg",
         "discountedprice": 600,
@@ -342,7 +342,7 @@
     },
     {
         "title": "Yogurt",
-        "type": "tshirt",
+        "type": "IELTS",
         "description": "Homemade yogurt with raspberry and mint",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/31.jpg",
         "discountedprice": 450,
@@ -353,7 +353,7 @@
     },
     {
         "title": "Sandwich with salad",
-        "type": "vegetable",
+        "type": "IELTS",
         "description": "Vegan sandwich with salad, tomato and radish",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/32.jpg",
         "discountedprice": 600,

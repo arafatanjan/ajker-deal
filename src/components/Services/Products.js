@@ -86,13 +86,13 @@ const Products = () => {
             </button>
             <button
               className="tile_div btn btn-outline-dark me-2"
-              onClick={() => filterProduct("Shirts")}
+              onClick={() => filterProduct("GRE")}
             >
               GRE
             </button>
             <button
               className="tile_div btn  me-2"
-              onClick={() => filterProduct("Salwar")}
+              onClick={() => filterProduct("IELTS")}
             >
               IELTS
             </button>
