@@ -1,7 +1,7 @@
 [
     {
         "title": "Brown eggs",
-        "type": "tshirt",
+        "type": "BCS",
         "description": "Raw organic brown eggs in a basket",
         "filename": "https://static.ajkerdeal.com/images/deals/781421912214149/1_forget-full-sleeve-t-shirt-for-men-genji.webp",
         "discountedprice": 124,
@@ -12,7 +12,7 @@
     },
     {
         "title": "Sweet fresh stawberry",
-        "type": "Pants",
+        "type": "BCS",
         "description": "Sweet fresh stawberry on the wooden table",
         "filename": "https://static.ajkerdeal.com/images/deals/781421912215629/1_equal-full-sleeve-t-shirt-for-men-genji.webp",
         "discountedprice": 450,
@@ -23,7 +23,7 @@
     },
     {
         "title": "Asparagus",
-        "type": "vegetable",
+        "type": "BCS",
         "description": "Asparagus with ham on the wooden table",
         "filename": "https://static.ajkerdeal.com/images/deals/414012206164848/1_t-shirt-for-man.webp",
         "discountedprice": 450,
@@ -34,7 +34,7 @@
     },
     {
         "title": "Green smoothie",
-        "type": "tshirt",
+        "type": "BCS",
         "description": "Glass of green smoothie with quail egg's yolk, served with cocktail tube, green apple and baby spinach leaves over tin surface.",
         "filename": "https://static.ajkerdeal.com/images/deals/781422012214213/1_full-sleeve-t-shirt-for-men-multicolor-genji.webp",
         "discountedprice": 600,
@@ -45,7 +45,7 @@
     },
     {
         "title": "Raw legums",
-        "type": "vegetable",
+        "type": "BCS",
         "description": "Raw legums on the wooden table",
         "filename": "https://static.ajkerdeal.com/images/deals/781422012214050/1_black-ass-cotton-full-sleeve-casual-t-shirt-for-men_.webp",
         "discountedprice": 450,
@@ -56,7 +56,7 @@
     },
     {
         "title": "Baking cake",
-        "type": "tshirt",
+        "type": "BCS",
         "description": "Baking cake in rural kitchen - dough  recipe ingredients (eggs, flour, sugar) on vintage wooden table from above.",
         "filename": "https://static.ajkerdeal.com/images/deals/781421912222716/1.jpg",
         "discountedprice": 450,
@@ -67,7 +67,7 @@
     },
     {
         "title": "Pesto with basil",
-        "type": "vegetable",
+        "type": "BCS",
         "description": "Italian traditional pesto with basil, chesse and oil",
         "filename": "https://static.ajkerdeal.com/images/deals/781422012215839/1_new-styile-full-sleeve-t-shirt-for-men.webp",
         "discountedprice": 450,
@@ -78,7 +78,7 @@
     },
     {
         "title": "Hazelnut in black ceramic bowl",
-        "type": "vegetable",
+        "type": "BCS",
         "description": "Hazelnut in black ceramic bowl on old wooden background. forest wealth. rustic style. selective focus",
         "filename": "https://static.ajkerdeal.com/images/deals/781421801001722/1_black-cotton-full-sleeve-t-shirt-for-men.webp",
         "discountedprice": 450,
@@ -89,7 +89,7 @@
     },
     {
         "title": "Fresh stawberry",
-        "type": "fruit",
+        "type": "BCS",
         "description": "Sweet fresh stawberry on the wooden table",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/8.jpg",
         "discountedprice": 600,

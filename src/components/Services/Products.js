@@ -74,7 +74,7 @@ const Products = () => {
             <button
               className="tile_div  px-1 py-0"
               // onClick={() => setFilter(data)}
-              onClick={() => filterProduct("tshirt")}
+              onClick={() => filterProduct("BCS")}
             >
               BCS
             </button>
