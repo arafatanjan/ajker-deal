@@ -100,7 +100,7 @@
     },
     {
         "title": "Lemon and salt",
-        "type": "fruit",
+        "type": "Admission",
         "description": "Rosemary, lemon and salt on the table",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/9.jpg",
         "discountedprice": 450,
@@ -111,7 +111,7 @@
     },
     {
         "title": "Homemade bread",
-        "type": "bakery",
+        "type": "Admission",
         "description": "Homemade bread",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/10.jpg",
         "discountedprice": 450,
@@ -122,7 +122,7 @@
     },
     {
         "title": "Legums",
-        "type": "vegetable",
+        "type": "Admission",
         "description": "Cooked legums on the wooden table",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/11.jpg",
         "discountedprice": 600,
@@ -133,7 +133,7 @@
     },
     {
         "title": "Fresh tomato",
-        "type": "vegetable",
+        "type": "Admission",
         "description": "Fresh tomato juice with basil",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/12.jpg",
         "discountedprice": 600,
@@ -144,7 +144,7 @@
     },
     {
         "title": "Healthy breakfast",
-        "type": "fruit",
+        "type": "Admission",
         "description": "Healthy breakfast set. rice cereal or porridge with berries and honey over rustic wood background",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/13.jpg",
         "discountedprice": 450,
@@ -155,7 +155,7 @@
     },
     {
         "title": "Green beans",
-        "type": "vegetable",
+        "type": "Admission",
         "description": "Raw organic green beans ready to eat",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/14.jpg",
         "discountedprice": 450,
@@ -166,7 +166,7 @@
     },
     {
         "title": "Baked stuffed portabello mushrooms",
-        "type": "bakery",
+        "type": "Admission",
         "description": "Homemade baked stuffed portabello mushrooms with spinach and cheese",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/15.jpg",
         "discountedprice": 600,
@@ -177,7 +177,7 @@
     },
     {
         "title": "Strawberry jelly",
-        "type": "fruit",
+        "type": "Admission",
         "description": "Homemade organic strawberry jelly in a jar",
         "filename": "https://api4286.s3.ap-south-1.amazonaws.com/images/16.jpg",
         "discountedprice": 400,
