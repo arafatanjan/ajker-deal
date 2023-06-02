@@ -76,31 +76,31 @@ const Products = () => {
               // onClick={() => setFilter(data)}
               onClick={() => filterProduct("tshirt")}
             >
-              T-Shirts
+              BCS
             </button>
             <button
               className="tile_div btn btn-outline-dark me-2"
               onClick={() => filterProduct("Pants")}
             >
-              Pants
+              Admission
             </button>
             <button
               className="tile_div btn btn-outline-dark me-2"
               onClick={() => filterProduct("Shirts")}
             >
-              Shirts
+              GRE
             </button>
             <button
               className="tile_div btn  me-2"
               onClick={() => filterProduct("Salwar")}
             >
-              Salwar Kameez
+              IELTS
             </button>
-            <button
+            {/* <button
               className="tile_div btn  me-2"
               onClick={() => filterProduct("Kurti")}
-            >
-              Kurti
+            > */}
+              {/* Kurti
             </button>
             <button
               className="tile_div btn  me-2"
@@ -131,7 +131,7 @@ const Products = () => {
               onClick={() => filterProduct("Shoes")}
             >
               Shoes
-            </button>
+            </button> */}
           </div>
           {/* <div className="float:left;color:#fff;font-size:14px;text-align: center;overflow: auto hidden;width: 100%;display: flex;flex-direction: row;justify-content: center;margin-bottom: 10px">
             <button className='btn btn-warning d-block gap-2 col-4 mx-auto'>t-shirt</button>
