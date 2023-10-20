@@ -148,19 +148,19 @@ const Products = () => {
           <div className='row'>
             <div className="col-md-6 ">
               <div className="row">
-                {filter.slice(0, 4).map((product) => {
+                {filter.slice(0, 2).map((product) => {
                   return (
                     <>
                       {/* <div className='container'> */}
                       {/* <div > */}
 
-                      <div className='col-md-3 px-1' >
+                      <div className='col-md-6 px-1' >
                         <div class="card h-100 text-center" key={product._id}>
                           <img
                             src={product.filename}
                             className="card-img-top"
                             alt={product.title}
-                            height="124px"
+                            // height="124px"
                           />
                           <div className="card-body">
                             {/* <h4 className="card-title mb-0">
@@ -168,11 +168,12 @@ const Products = () => {
                               {product.title.substring(0, 8)}{" "}
                             </h4> */}
                             <p className="discounted-price">
-                              <span>{product.discountedprice}</span>
+                              {/* <span>{product.discountedprice}</span> */}
+                              <button>Add</button>
                             </p>
-                            <p className="regular-price">
+                            {/* <p className="regular-price">
                               <span>{product.price}</span>
-                            </p>
+                            </p> */}
                           </div>
                         </div>
                       </div>
@@ -183,19 +184,19 @@ const Products = () => {
             </div>
             <div className="col-md-6 ">
               <div className="row">
-                {filter.slice(4, 8).map((product) => {
+                {filter.slice(4, 6).map((product) => {
                   return (
                     <>
                       {/* <div className='container'> */}
                       {/* <div > */}
 
-                      <div className='col-md-3'>
-                        <div class="card h-100 text-center" key={product._id}>
+                      <div className='col-md-6'>
+                      <div class="card h-100 text-center" key={product._id}>
                           <img
                             src={product.filename}
                             className="card-img-top"
                             alt={product.title}
-                            height="124px"
+                            // height="124px"
                           />
                           <div className="card-body">
                             {/* <h4 className="card-title mb-0">
@@ -203,11 +204,12 @@ const Products = () => {
                               {product.title.substring(0, 8)}{" "}
                             </h4> */}
                             <p className="discounted-price">
-                              <span>{product.discountedprice}</span>
+                              {/* <span>{product.discountedprice}</span> */}
+                              <button>Add</button>
                             </p>
-                            <p className="regular-price">
+                            {/* <p className="regular-price">
                               <span>{product.price}</span>
-                            </p>
+                            </p> */}
                           </div>
                         </div>
 
@@ -223,11 +225,12 @@ const Products = () => {
         <br />
         <br />
         <br />
-        <div className='deals-title-for-live-vdo' style={{ marginLeft: 6, float: 'left', width: '90%', marginTop: 30, display: 'block' }} id="hideOnFailedId">
-          <span className='hot-deal-logo' style={{ height: 65 }}>
-            <img src="https://static.ajkerdeal.com/images/livevideode/logo.svg" alt='' />
-          </span>
-        </div>
+       
+        <div className="col-12 mb-5">
+            <h6 className="fw-bolder text-left">Video List</h6>
+            <h1 className="display-6 fw-bolder text-left">Popular Videos</h1>
+            <hr />
+          </div>
         <div id="liveShoppingVideoForAjkerDeal" >
           <div className='row'>
             <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12' style={{ width: '105%' }}>
@@ -240,12 +243,12 @@ const Products = () => {
                     <img src="https://static.ajkerdeal.com/images/new2021/eyel.svg" style={{ width: 25, marginRight: 5, marginLeft: 5 }} alt=''></img>
                     <p style={{ color: 'white', marginLeft: -3 }}>333</p>
                   </span>
-                  <a href="https://ajkerdeal.com/livevideoshopping/18013/0" style={{ height: '13rem' }}>
+                  <a href="https://www.youtube.com/watch?v=T27SWSr829E" style={{ height: '13rem' }}>
                     <span className='playn'>
                       <img src='https://static.ajkerdeal.com/images/videoshopping/play/blackplay.png' alt='' style={{ width: '42%', border: 'none' }}></img>
                     </span>
-                    <img src="https://static.ajkerdeal.com/LiveVideoImage/LiveVideoCoverPhoto/18013/livecoverphoto.jpg" alt='' style={{ border: 2, border: 'solid', border: '#000000', height: '18rem', width: '-webkit-fill-available' }}></img>
-                    <p style={{ background: 'rgb(3 4 4)', opacity: 0.6, position: 'absolute', textAlign: 'center', fontWeight: 900, color: 'white', fontSize: 11, marginTop: -34, width: '10.8rem', height: 24 }}>  ফাল্গুন মেলা</p>
+                    <img src="https://i.ibb.co/PxND6CV/image-9.jpg" alt='' style={{ border: 2, border: 'solid', border: '#000000', height: '18rem', width: '-webkit-fill-available' }}></img>
+                    <p style={{ background: 'rgb(3 4 4)', opacity: 0.6, position: 'absolute', textAlign: 'center', fontWeight: 900, color: 'white', fontSize: 11, marginTop: -34, width: '10.8rem', height: 24 }}>  Bangla</p>
                   </a>
                 </div>
                 <div id="livenew" className="col-lg-2 col-md-2 col-sm-2 col-xs-2" style={{ marginBottom: 30, overflow: 'hidden', position: 'relative' }}>
@@ -256,12 +259,12 @@ const Products = () => {
                     <img src="https://static.ajkerdeal.com/images/new2021/eyel.svg" style={{ width: 25, marginRight: 5, marginLeft: 5 }} alt=''></img>
                     <p style={{ color: 'white', marginLeft: -3 }}>333</p>
                   </span>
-                  <a href="https://ajkerdeal.com/livevideoshopping/18013/0" style={{ height: '13rem' }}>
+                  <a href="https://www.youtube.com/watch?v=T27SWSr829E" style={{ height: '13rem' }}>
                     <span className='playn'>
                       <img src='https://static.ajkerdeal.com/images/videoshopping/play/blackplay.png' alt='' style={{ width: '42%', border: 'none' }}></img>
                     </span>
-                    <img src="https://static.ajkerdeal.com/LiveVideoImage/LiveVideoCoverPhoto/18021/livecoverphoto.jpg" alt='' style={{ border: 2, border: 'solid', border: '#000000', height: '18rem', width: '-webkit-fill-available' }}></img>
-                    <p style={{ background: 'rgb(3 4 4)', opacity: 0.6, position: 'absolute', textAlign: 'center', fontWeight: 900, color: 'white', fontSize: 11, marginTop: -34, width: '10.8rem', height: 24 }}>    গোলাপ সোনা</p>
+                    <img src="https://i.ibb.co/Kmq3XNV/image-6.jpg" alt='' style={{ border: 2, border: 'solid', border: '#000000', height: '18rem', width: '-webkit-fill-available' }}></img>
+                    <p style={{ background: 'rgb(3 4 4)', opacity: 0.6, position: 'absolute', textAlign: 'center', fontWeight: 900, color: 'white', fontSize: 11, marginTop: -34, width: '10.8rem', height: 24 }}>   English</p>
                   </a>
                 </div>
                 <div id="livenew" className="col-lg-2 col-md-2 col-sm-2 col-xs-2" style={{ marginBottom: 30, overflow: 'hidden', position: 'relative' }}>
@@ -272,12 +275,12 @@ const Products = () => {
                     <img src="https://static.ajkerdeal.com/images/new2021/eyel.svg" style={{ width: 25, marginRight: 5, marginLeft: 5 }} alt=''></img>
                     <p style={{ color: 'white', marginLeft: -3 }}>333</p>
                   </span>
-                  <a href="https://ajkerdeal.com/livevideoshopping/18013/0" style={{ height: '13rem' }}>
+                  <a href="https://www.youtube.com/watch?v=T27SWSr829E" style={{ height: '13rem' }}>
                     <span className='playn'>
                       <img src='https://static.ajkerdeal.com/images/videoshopping/play/blackplay.png' alt='' style={{ width: '42%', border: 'none' }}></img>
                     </span>
-                    <img src="https://static.ajkerdeal.com/LiveVideoImage/LiveVideoCoverPhoto/18011/livecoverphoto.jpg" alt='' style={{ border: 2, border: 'solid', border: '#000000', height: '18rem', width: '-webkit-fill-available' }}></img>
-                    <p style={{ background: 'rgb(3 4 4)', opacity: 0.6, position: 'absolute', textAlign: 'center', fontWeight: 900, color: 'white', fontSize: 11, marginTop: -34, width: '10.8rem', height: 24 }}>    পার্টির পোশাক</p>
+                    <img src="https://i.ibb.co/59n59tg/image-7.jpg" alt='' style={{ border: 2, border: 'solid', border: '#000000', height: '18rem', width: '-webkit-fill-available' }}></img>
+                    <p style={{ background: 'rgb(3 4 4)', opacity: 0.6, position: 'absolute', textAlign: 'center', fontWeight: 900, color: 'white', fontSize: 11, marginTop: -34, width: '10.8rem', height: 24 }}>   Social Science</p>
                   </a>
                 </div>
                 <div id="livenew" className="col-lg-2 col-md-2 col-sm-2 col-xs-2" style={{ marginBottom: 30, overflow: 'hidden', position: 'relative' }}>
@@ -288,12 +291,12 @@ const Products = () => {
                     <img src="https://static.ajkerdeal.com/images/new2021/eyel.svg" style={{ width: 25, marginRight: 5, marginLeft: 5 }} alt=''></img>
                     <p style={{ color: 'white', marginLeft: -3 }}>333</p>
                   </span>
-                  <a href="https://ajkerdeal.com/livevideoshopping/18013/0" style={{ height: '13rem' }}>
+                  <a href="https://www.youtube.com/watch?v=T27SWSr829E" style={{ height: '13rem' }}>
                     <span className='playn'>
                       <img src='https://static.ajkerdeal.com/images/videoshopping/play/blackplay.png' alt='' style={{ width: '42%', border: 'none' }}></img>
                     </span>
-                    <img src="https://static.ajkerdeal.com/LiveVideoImage/LiveVideoCoverPhoto/18008/livecoverphoto.jpg" alt='' style={{ border: 2, border: 'solid', border: '#000000', height: '18rem', width: '-webkit-fill-available' }}></img>
-                    <p style={{ background: 'rgb(3 4 4)', opacity: 0.6, position: 'absolute', textAlign: 'center', fontWeight: 900, color: 'white', fontSize: 11, marginTop: -34, width: '10.8rem', height: 24 }}>    নিউ স্টক</p>
+                    <img src="https://i.ibb.co/BNBRB0S/image-8.jpg" alt='' style={{ border: 2, border: 'solid', border: '#000000', height: '18rem', width: '-webkit-fill-available' }}></img>
+                    <p style={{ background: 'rgb(3 4 4)', opacity: 0.6, position: 'absolute', textAlign: 'center', fontWeight: 900, color: 'white', fontSize: 11, marginTop: -34, width: '10.8rem', height: 24 }}>    Math</p>
                   </a>
                 </div>
                 <div id="livenew" className="col-lg-2 col-md-2 col-sm-2 col-xs-2" style={{ marginBottom: 30, overflow: 'hidden', position: 'relative' }}>
@@ -304,12 +307,12 @@ const Products = () => {
                     <img src="https://static.ajkerdeal.com/images/new2021/eyel.svg" style={{ width: 25, marginRight: 5, marginLeft: 5 }} alt=''></img>
                     <p style={{ color: 'white', marginLeft: -3 }}>333</p>
                   </span>
-                  <a href="https://ajkerdeal.com/livevideoshopping/18013/0" style={{ height: '13rem' }}>
+                  <a href="https://www.youtube.com/watch?v=T27SWSr829E" style={{ height: '13rem' }}>
                     <span className='playn'>
                       <img src='https://static.ajkerdeal.com/images/videoshopping/play/blackplay.png' alt='' style={{ width: '42%', border: 'none' }}></img>
                     </span>
-                    <img src="https://static.ajkerdeal.com/LiveVideoImage/LiveVideoCoverPhoto/18025/livecoverphoto.jpg" alt='' style={{ border: 2, border: 'solid', border: '#000000', height: '18rem', width: '-webkit-fill-available' }}></img>
-                    <p style={{ background: 'rgb(3 4 4)', opacity: 0.6, position: 'absolute', textAlign: 'center', fontWeight: 900, color: 'white', fontSize: 11, marginTop: -34, width: '10.8rem', height: 24 }}>    ওয়েস্টার্ন কালেকশন</p>
+                    <img src="https://i.ibb.co/PxND6CV/image-9.jpg" alt='' style={{ border: 2, border: 'solid', border: '#000000', height: '18rem', width: '-webkit-fill-available' }}></img>
+                    <p style={{ background: 'rgb(3 4 4)', opacity: 0.6, position: 'absolute', textAlign: 'center', fontWeight: 900, color: 'white', fontSize: 11, marginTop: -34, width: '10.8rem', height: 24 }}>    Science</p>
                   </a>
                 </div>
                 <div id="livenew" className="col-lg-2 col-md-2 col-sm-2 col-xs-2" style={{ marginBottom: 30, overflow: 'hidden', position: 'relative' }}>
@@ -320,12 +323,12 @@ const Products = () => {
                     <img src="https://static.ajkerdeal.com/images/new2021/eyel.svg" style={{ width: 25, marginRight: 5, marginLeft: 5 }} alt=''></img>
                     <p style={{ color: 'white', marginLeft: -3 }}>333</p>
                   </span>
-                  <a href="https://ajkerdeal.com/livevideoshopping/18013/0" style={{ height: '13rem' }}>
+                  <a href="https://www.youtube.com/watch?v=T27SWSr829E" style={{ height: '13rem' }}>
                     <span className='playn'>
                       <img src='https://static.ajkerdeal.com/images/videoshopping/play/blackplay.png' alt='' style={{ width: '42%', border: 'none' }}></img>
                     </span>
-                    <img src="https://static.ajkerdeal.com/LiveVideoImage/LiveVideoCoverPhoto/18024/livecoverphoto.jpg" alt='' style={{ border: 2, border: 'solid', border: '#000000', height: '18rem', width: '-webkit-fill-available' }}></img>
-                    <p style={{ background: 'rgb(3 4 4)', opacity: 0.6, position: 'absolute', textAlign: 'center', fontWeight: 900, color: 'white', fontSize: 11, marginTop: -34, width: '10.8rem', height: 24 }}>    নতুন ড্রেস এ ছার!</p>
+                    <img src="https://i.ibb.co/Kmq3XNV/image-6.jpg" alt='' style={{ border: 2, border: 'solid', border: '#000000', height: '18rem', width: '-webkit-fill-available' }}></img>
+                    <p style={{ background: 'rgb(3 4 4)', opacity: 0.6, position: 'absolute', textAlign: 'center', fontWeight: 900, color: 'white', fontSize: 11, marginTop: -34, width: '10.8rem', height: 24 }}>    Religion</p>
                   </a>
                 </div>
               </div>
@@ -333,8 +336,44 @@ const Products = () => {
 
           </div>
         </div>
+        <div className="col-12 mb-5">
+            <h6 className="fw-bolder text-left">Our FAQ</h6>
+            <h1 className="display-6 fw-bolder text-left">Frequently asked questions</h1>
+            <hr />
+          </div>
         <div>
-
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Question #1
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Question #2
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Question #3
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+</div>
         </div>
         {/* <div id="block" style={{}}>
           <div id="HomeProductBlock2" className="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
@@ -350,19 +389,20 @@ const Products = () => {
       <div className="container my-5 py-5">
         <div className="row">
           <div className="col-12 mb-5">
-            <h1 className="display-6 fw-bolder text-center">Latest Products</h1>
+            <h6 className="fw-bolder text-left">Course List</h6>
+            <h1 className="display-6 fw-bolder text-left">Our Popular Courses</h1>
             <hr />
           </div>
           <div>
             <div className="deals-title">
-              <span className="hot-deal-logo style={{ height: 50px }}" >
+              {/* <span className="hot-deal-logo style={{ height: 50px }}" >
                 <img className='img' src={aru} alt="" />
-              </span>
+              </span> */}
               {/* style={{ height: 65px }} */}
             </div>
             <div style={{ float: 'right', marginTop: 20, fontSize: 16, textAlign: 'right', marginRight: -7, borderBottom: 'darkorange', }} className="d-flex justify-content-end">
 
-              <a href="https://ajkerdeal.com/flash/allflashdeals.aspx" style={{ height: 25, width: 75, marginTop: -3.5 }}  >All
+              <a href="https://www.youtube.com/watch?v=T27SWSr829E" style={{ height: 25, width: 75, marginTop: -3.5 }}  >All
                 <span style={{ height: 20, width: 15, display: 'inline-block', overflow: 'hidden' }} className="all-arrow">
                   <img style={{ height: 15, width: '100%', marginTop: '-3.5%', display: 'inline-block' }} src="https://static.ajkerdeal.com/images/desktop-home/arrowforall.svg" alt="" />
                 </span>

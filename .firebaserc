@@ -1,9 +1,5 @@
 {
   "projects": {
-    "default": "niche-product-site",
-    "staging": "niche-product-site",
-    "ajker-deal": "ajker-deal-site"
-  },
-  "targets": {},
-  "etags": {}
+    "default": "elms-c5498"
+  }
 }

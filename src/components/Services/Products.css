@@ -4,9 +4,9 @@
     float: left; */
     color: #fff;
     padding: 5px;
-    border: 1px solid orange;
+    border: 1px solid blue;
     border-radius: 4px;
-    background: darkorange;
+    background: blue;
     margin-right: 1pc;
     min-width: 1pc;
     line-height: 10px;
@@ -81,8 +81,13 @@ span.hot-deal-logo {
 }
 
 .card-img-top {
-    width: 124px;
+    width: 324px;
     height: 124px;
+    margin-right: 150px;
+}
+
+.card{
+    margin-right: 50px;
 }
 
 .regular-price {

@@ -9,6 +9,7 @@ import './Header.css';
 // import Usefirebase from '../../Hook/Usefirebase';
 import { Box } from '@mui/system';
 import a from './../../images/ad-logo.png'
+import aru from '../../images/Group 1000004534.png'
 
 const Header = () => {
     // const { user, logout } = Usefirebase();
@@ -17,95 +18,28 @@ const Header = () => {
     return (
         <div>
             <div className="header">
+            <span className="hot-deal-logo style={{ height: 50px }}" >
+                <img className='img' src={aru} alt="" />
+              </span>
                 <ul class="nav justify-content-end">
+               
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Merchant Corner</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Complain & Suggestion</a>
+                        <a class="nav-link" href="#">Course List</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Track Order</a>
+                        <a class="nav-link" href="#">Video List</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Login</a>
+                        <a class="nav-link" href="#">Contact us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Bangla</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">English</a>
-                    </li>
+                    <NavLink as={Link} to="/loggedin">Log in</NavLink>
 
                 </ul>
             </div >
-            <div className='middle-inner'>
-                <div className='container'>
-                    <div className='row'>
-                        <div className='col-lg-2 col-md-2 col-12'>
-
-                            <div className='logo'>
-                                <a href='http://localhost:3000/'>
-                                    <img className='img-fluid w-40' src={a} alt="" />
-                                </a>
-                            </div>
-                            <div className='search-top'>
-
-                                <div className='top-search'>
-                                    <a href='#0'>
-                                        <i className='ti-search'></i>
-                                    </a>
-                                </div>
-                                <div className="search-top">
-                                    <form className="search-form">
-                                        <input type='text' placeholder="Search Product" />
-                                        <button value="search" type="submit">hhh</button>
-                                        <i className='ti-search'>::before</i>
-                                    </form>
-
-                                </div>
-
-
-                                <div className="mobile-nav"></div>
-
-                            </div>
-                        </div>
-                        <div className="col-lg-8 col-md-7 col-12">
-                            <div className="search-bar-top">
-                                <div className="search-bar">
-                                    <form>
-                                        <input name="search" placeholder="প্রোডাক্ট খুজুন" id="txtName" className="ui-autocomplete-input" autocomplete="off" style={{ width: '100%' }} />
-                                        <button type="button" className="btnn" onclick="SearchLocation()"><i className='ti-search' style={{ fontSize: 24, lineHeight: 1.7 }}></i></button>
-
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <ul class="dropdown-menu">
-                    <li><h6 class="dropdown-header">Dropdown header</h6></li>
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                </ul> */}
-                        <div className='col-lg-2 col-md-3 col-12'>
-                            <div className='right-bar'>
-                                <div className='sinlge-bar shopping'>
-                                    <a href='#' className='single-icon'>
-                                        <img src='https://static.ajkerdeal.com/images/desktop-home/cart.svg' style={{ width: 60 }} alt=''></img>
-                                        <span style={{ marginRight: '2.5rem' }} className='total-count' id="total-count">o</span>
-                                    </a>
-
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                    </div>
-
-
-                </div>
-
-            </div>
+           
         </div>
 
     );

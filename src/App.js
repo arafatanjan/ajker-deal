@@ -19,9 +19,14 @@ import Header from './components/Header/Header';
 import initializeAuthentication from "./Firebase/firebase.initialize";
 // import ManageProduct from "./components/Admin/ManageProduct";
 // import ManageServices from "./components/ManageServices/ManageServices";
-
+import Quiz from "./components/Quiz/Quiz";
+import Attendance from "./attendace/Attendance";
+import Result from "./components/Quiz/Result";
+import ResultTable from "./components/Quiz/ResultTable";
+import Front from "./components/Quiz/Front";
 import app from './Firebase/firebase.config'
 import auth from './Firebase/firebase.config';
+import Question from "./components/Quiz/Question";
 // import AddService from "./components/AddService/AddService";
 // import ManageServices from "./components/ManageServices/ManageServices";
 // import AllOrder from "./components/AllOrders/AllOrder";
@@ -35,7 +40,7 @@ import Payment from "./components/Dashboard/Payment";
 function App() {
   return (
     <div className="App">
-
+<Authprovider>
       <Router>
         <Header></Header>
         <Routes>
@@ -44,7 +49,24 @@ function App() {
           </Route>
           <Route path='home' element={<Home></Home>}>
           </Route>
+          <Route path='loggedin' element={<Loggedin></Loggedin>}></Route>
+          <Route exact path='payment' element={<Payment></Payment>}>
+              </Route> 
           <Route path='services' element={<Services></Services>}>
+          </Route>
+          <Route path='quiz' element={<Quiz></Quiz>}>
+          </Route>
+          <Route path='result' element={<Result></Result>}>
+          </Route>
+          <Route path='front' element={<Front></Front>}>
+          </Route>
+          <Route path='question' element={<Question></Question>}>
+          </Route>
+          <Route path='result' element={<Result></Result>}>
+          </Route>
+          <Route path='resulttable' element={<ResultTable></ResultTable>}>
+          </Route>
+          <Route path='attendance' element={<Attendance></Attendance>}>
           </Route>
           {/* <Route path="users/add" element={<AddUser></AddUser>}>
             </Route>
@@ -69,11 +91,10 @@ function App() {
               </Route>
               <Route exact path='dashboard/reviews' element={<Review></Review>}>
               </Route>
-              <Route exact path='dashboard/payment' element={<Payment></Payment>}>
-              </Route> */}
+              
           {/* </Route> */}
           {/* <Route path="/users/add" element={<AddUser></AddUser>}></Route> */}
-          <Route path='loggedin' element={<Loggedin></Loggedin>}></Route>
+          {/* <Route path='/loggedin' element={<Loggedin></Loggedin>}></Route> */}
           {/* <Route path='manageServices' element={<ManageServices></ManageServices>}></Route> */}
           {/* <Route path='allorder' element={<AllOrder></AllOrder>}></Route> */}
 
@@ -87,7 +108,7 @@ function App() {
         </Routes>
 
       </Router >
-
+      </Authprovider>
 
     </div >
   );
